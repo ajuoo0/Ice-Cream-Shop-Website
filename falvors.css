@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.ads {
+    font-family: sans-serif;
+    background-color: #541F03;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.navbar {
+    background-color: #FFF99F;
+}
+.hover-effect:hover {
+    text-decoration: underline;
+}
+
+.name h1 {
+    font-size: 20px;
+    padding: 20px 10px;
+    color: #541F03;
+    font-style:normal;
+    font-family: "Ultra", serif; 
+}
+
+/* sec 1  */
+
+#sec-1 {
+    background-color: #541F03;
+    height: 40vh;
+    color: white;
+}
+.title {
+   text-align: center;
+   position: absolute;
+   top: 200px;
+   left: 525px;
+}
+
+.title p {
+    font-size: 20px;
+    font-family: "Life Savers", serif;
+    letter-spacing: 1.5px;
+
+}
+
+.title h1 {
+    font-size: 50px;
+    font-family: "Martian Mono", monospace;
+    font-weight: bold;
+}
+
+/* sec 1 ending */
+
+/* menu section starts from here */
+
+.menu-section {
+    background-color: #190d85;
+    min-height: 100vh;
+}
+.card-box img {
+    width: 260px;
+    height: 260px;
+    object-fit: contain;
+}
+.box-h2 {
+    font-size: 35px;
+    font-family: "Englebert", cursive;
+}
+.box-p {
+    font-size: 20px;
+    font-family: "Encode Sans Expanded", sans-serif;
+    line-height: 1.5;
+}
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* menu sec ends here */
+
+/* footer sec starting */
+
+.footer {
+    background-color: #541F03;
+    color: #FFF99F;
+}
+#span1 {
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#btn-2 {
+    padding: 12px 30px;
+    border-radius: 10px;
+    background-color:#FFF99F ;
+    color: #541F03;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#btn-2:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* footer sec ending */
+
+
+/* ---------- responsive section------------ */
+
+/* media query mobile view */
+
+@media (max-width:576px) {
+
+    .ads h6 { 
+        font-size: 12px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .name h1 {
+        padding: 15px 10px;
+    }
+    .title {
+        position: static;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+}
+
+/* MQ tablet view */
+
+@media (min-width:577px) and (max-width:768px) {
+
+    .title {
+        position: static;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+     
+}
+
+/* MQ laptop view */
+
+@media (min-width:769px) {
+    .title {
+        position: static;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+
+}
+
