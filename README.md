@@ -16,7 +16,7 @@ This is a beginner-level responsive ice cream shop website built using HTML, CSS
 - Bootstrap 5
 
 ## Live Demo
-https://ajuoo0.github.io/myproject/
+https://ajuoo0.github.io/Ice-Cream-Shop-Website/
 
 ## Author
 Ajnas
