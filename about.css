@@ -211,6 +211,27 @@ span {
     }
 }
 
+@media (max-width:396px) {
+    .smalll {
+        font-size: 14px;
+    }
+    .box2 h1 {
+        font-size: 26px;
+    }
+    .text2 {
+        font-size: 15px;
+    }
+    .small {
+        font-size: 14px;
+    }
+    .box3 h1 {
+        font-size: 26px;
+    }
+    .text1 {
+        font-size: 15px;
+    }
+}
+
 /* MQ tablet view */
 
 @media (min-width:577px) and (max-width:768px) {
